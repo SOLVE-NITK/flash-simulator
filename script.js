@@ -1,139 +1,147 @@
 const data = [
   {
     id: 1,
-    name: "2DOF-Forced-Vib",
-    filepath: "./videoSim/2DOF-Forced-Vib.swf",
-  },
-  {
-    id: 2,
-    name: "2DOF-Forced-Vib_Expt",
-    filepath: "./videoSim/2DOF-Forced-Vib_Expt.swf",
-  },
-  {
-    id: 3,
-    name: "2DOF-TMD_ExpL",
-    filepath: "./videoSim/2DOF-TMD_ExpL.swf",
-  },
-  {
-    id: 4,
-    name: "2DOF-TMD_ExpT",
-    filepath: "./videoSim/2DOF-TMD_ExpT.swf",
-  },
-  {
-    id: 5,
-    name: "BaseExcitation",
-    filepath: "./videoSim/BaseExcitation.swf",
-  },
-  {
-    id: 6,
-    name: "BaseExcitation_Expl",
-    filepath: "./videoSim/BaseExcitation_Expl.swf",
-  },
-  {
-    id: 7,
-    name: "BaseExcitationExpR",
-    filepath: "./videoSim/BaseExcitationExpR.swf",
-  },
-  {
-    id: 8,
-    name: "Cantilever",
+    name: "EXP 1: Free vibration of cantilever beam-expR",
     filepath: "./videoSim/Cantilever.swf",
   },
   {
-    id: 9,
-    name: "Cantilever_expT_easy",
+    id: 2,
+    name: "EXP 1: Cantilever_expT_easy",
     filepath: "./videoSim/Cantilever_expT_easy.swf",
   },
   {
-    id: 10,
-    name: "Cantilever_expT_hard",
-    filepath: "./videoSim/Cantilever_expT_hard.swf",
-  },
-  {
-    id: 11,
-    name: "Cantilever_expT_medium1",
+    id: 3,
+    name: "EXP 1: Cantilever_expT_medium1",
     filepath: "./videoSim/Cantilever_expT_medium1.swf",
   },
   {
-    id: 12,
-    name: "Cantilever_expT_medium2",
+    id: 4,
+    name: "EXP 1: Cantilever_expT_medium2",
     filepath: "./videoSim/Cantilever_expT_medium2.swf",
   },
   {
-    id: 13,
-    name: "Fixed fixed_expT_easy",
-    filepath: "./videoSim/Fixed fixed_expT_easy.swf",
+    id: 5,
+    name: `EXP 1: Cantilever_expT_hard 
+    **********************************`,
+    filepath: "./videoSim/Cantilever_expT_hard.swf",
   },
   {
-    id: 14,
-    name: "Fixed Fixed_expT_hard",
-    filepath: "./videoSim/Fixed Fixed_expT_hard.swf",
+    id: 6,
+    name: "EXP 2: Free vibration of simply supported beam",
+    filepath: "./videoSim/SimplySupported.swf",
   },
   {
-    id: 15,
-    name: "Fixed fixed_expT_medium1",
-    filepath: "./videoSim/Fixed fixed_expT_medium1.swf",
-  },
-  {
-    id: 16,
-    name: "Fixed fixed_expT_medium2",
-    filepath: "./videoSim/Fixed fixed_expT_medium2.swf",
-  },
-  {
-    id: 17,
-    name: "FixedFixed",
+    id: 7,
+    name: "EXP 3: Free vibration of fixed beam",
     filepath: "./videoSim/FixedFixed.swf",
   },
   {
-    id: 18,
-    name: "ForcedVib",
+    id: 8,
+    name: "EXP 4: Forced vibration of SDOF system",
     filepath: "./videoSim/ForcedVib.swf",
   },
   {
-    id: 19,
-    name: "ForceVib",
-    filepath: "./videoSim/ForceVib.swf",
+    id: 9,
+    name: "EXP 5: Base Excitation_Expl",
+    filepath: "./videoSim/BaseExcitation_Expl.swf",
   },
   {
-    id: 20,
-    name: "FreeVibrationSDOF_expN_ver2",
-    filepath: "./videoSim/FreeVibrationSDOF_expN_ver2.swf",
-  },
-  {
-    id: 21,
-    name: "Getting started_ver2",
-    filepath: "./videoSim/Getting started_ver2.swf",
-  },
-  {
-    id: 22,
-    name: "RotatingUnbalance",
+    id: 10,
+    name: "EXP 6: Rotating Unbalance",
     filepath: "./videoSim/RotatingUnbalance.swf",
   },
   {
-    id: 23,
-    name: "Simply supported_expT_easy",
-    filepath: "./videoSim/Simply supported_expT_easy.swf",
+    id: 11,
+    name: "EXP 7: 2DOF Forced vibration",
+    filepath: "./videoSim/2DOF-Forced-Vib.swf",
   },
   {
-    id: 24,
-    name: "Simply Supported_expT_hard",
-    filepath: "./videoSim/Simply Supported_expT_hard.swf",
+    id: 12,
+    name: "EXP 8: Dynamic Vibration Absorber",
+    filepath: "./videoSim/2DOF-TMD_ExpL.swf",
   },
-  {
-    id: 25,
-    name: "Simply supported_expT_medium1",
-    filepath: "./videoSim/Simply supported_expT_medium1.swf",
-  },
-  {
-    id: 26,
-    name: "Simply supported_expT_medium2",
-    filepath: "./videoSim/Simply supported_expT_medium2.swf",
-  },
-  {
-    id: 27,
-    name: "SimplySupported",
-    filepath: "./videoSim/SimplySupported.swf",
-  },
+  
+  // {
+  //   id: 9,
+  //   name: "EXP 7: 2DOF Forced vibration_Expt",
+  //   filepath: "./videoSim/2DOF-Forced-Vib_Expt.swf",
+  // },
+  
+  // {
+  //   id: 11,//not working
+  //   name: "2DOF-TMD_ExpT",
+  //   filepath: "./videoSim/2DOF-TMD_ExpT.swf",
+  // },
+  // {
+  //   id: 12, //video
+  //   name: "BaseExcitation",
+  //   filepath: "./videoSim/BaseExcitation.swf",
+  // },
+ 
+  // {
+  //   id: 7,
+  //   name: "EXP 5: Base Excitation_ExpR",
+  //   filepath: "./videoSim/BaseExcitationExpR.swf",
+  // },
+  // {
+  //   id: 13,
+  //   name: "EXP 3: Free vibration of fixed beam_expT_easy",
+  //   filepath: "./videoSim/Fixed fixed_expT_easy.swf",
+  // },
+  // {
+  //   id: 14,
+  //   name: "EXP 3: Free vibration of fixed beam_expT_hard",
+  //   filepath: "./videoSim/Fixed Fixed_expT_hard.swf",
+  // },
+  // {
+  //   id: 15,
+  //   name: "EXP 3: Free vibration of fixed beam_expT_medium1",
+  //   filepath: "./videoSim/Fixed fixed_expT_medium1.swf",
+  // },
+  // {
+  //   id: 16,
+  //   name: "EXP 3: Free vibration of fixed beam_expT_medium2",
+  //   filepath: "./videoSim/Fixed fixed_expT_medium2.swf",
+  // },
+  
+  
+  // {
+  //   id: 19, //video
+  //   name: "ForceVib",
+  //   filepath: "./videoSim/ForceVib.swf",
+  // },
+  // {
+  //   id: 19,//video
+  //   name: "FreeVibrationSDOF_expN_ver2",
+  //   filepath: "./videoSim/FreeVibrationSDOF_expN_ver2.swf",
+  // },
+  // {
+  //   id: 20,//video
+  //   name: "Getting started_ver2",
+  //   filepath: "./videoSim/Getting started_ver2.swf",
+  // },
+ 
+  // {
+  //   id: 22,
+  //   name: "EXP 2: Simply supported_expT_easy",
+  //   filepath: "./videoSim/Simply supported_expT_easy.swf",
+  // },
+  // {
+  //   id: 23,
+  //   name: "EXP 2: Simply Supported_expT_hard",
+  //   filepath: "./videoSim/Simply Supported_expT_hard.swf",
+  // },
+  // {
+  //   id: 24,
+  //   name: "EXP 2: Simply supported_expT_medium1",
+  //   filepath: "./videoSim/Simply supported_expT_medium1.swf",
+  // },
+  // {
+  //   id: 25,
+  //   name: "EXP 2: Simply supported_expT_medium2",
+  //   filepath: "./videoSim/Simply supported_expT_medium2.swf",
+  // },
+ 
 ];
 
 let currentExperiment = "";
