@@ -6,57 +6,58 @@ const data = [
   },
   {
     id: 2,
-    name: "EXP 1: Cantilever_expT_easy",
+    name: "EXP 1: Cantilever_expT_Experiment1",
     filepath: "./videoSim/Cantilever_expT_easy.swf",
   },
   {
     id: 3,
-    name: "EXP 1: Cantilever_expT_medium1",
+    name: "EXP 1: Cantilever_expT_Experiment2",
     filepath: "./videoSim/Cantilever_expT_medium1.swf",
   },
   {
     id: 4,
-    name: "EXP 1: Cantilever_expT_medium2",
+    name: `EXP 1: Cantilever_expT_Experiment3 
+    **********************************`,
     filepath: "./videoSim/Cantilever_expT_medium2.swf",
   },
+  // {
+  //   id: 5,
+  //   name: `EXP 1: Cantilever_expT_hard 
+  //   **********************************`,
+  //   filepath: "./videoSim/Cantilever_expT_hard.swf",
+  // },
   {
     id: 5,
-    name: `EXP 1: Cantilever_expT_hard 
-    **********************************`,
-    filepath: "./videoSim/Cantilever_expT_hard.swf",
-  },
-  {
-    id: 6,
     name: "EXP 2: Free vibration of simply supported beam",
     filepath: "./videoSim/SimplySupported.swf",
   },
   {
-    id: 7,
+    id: 6,
     name: "EXP 3: Free vibration of fixed beam",
     filepath: "./videoSim/FixedFixed.swf",
   },
   {
-    id: 8,
+    id: 7,
     name: "EXP 4: Forced vibration of SDOF system",
     filepath: "./videoSim/ForcedVib.swf",
   },
   {
-    id: 9,
+    id: 8,
     name: "EXP 5: Base Excitation_Expl",
     filepath: "./videoSim/BaseExcitation_Expl.swf",
   },
   {
-    id: 10,
+    id: 9,
     name: "EXP 6: Rotating Unbalance",
     filepath: "./videoSim/RotatingUnbalance.swf",
   },
   {
-    id: 11,
+    id: 10,
     name: "EXP 7: 2DOF Forced vibration",
     filepath: "./videoSim/2DOF-Forced-Vib.swf",
   },
   {
-    id: 12,
+    id: 11,
     name: "EXP 8: Dynamic Vibration Absorber",
     filepath: "./videoSim/2DOF-TMD_ExpL.swf",
   },
