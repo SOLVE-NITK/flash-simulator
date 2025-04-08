@@ -4,24 +4,28 @@
     <meta charset="UTF-8" />
     <title>2DOF Forced Vibration</title>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    <style>
-      body {
-        font-family: sans-serif;
-        text-align: center;
-        background: #f5f5f5;
-        padding: 2rem;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
   </head>
   <body>
-    <h1>2DOF Forced Vibration Simulation</h1>
-    <object
-      data="2DOF-Forced-Vib.swf"
-      type="application/x-shockwave-flash"
-      width="800"
-      height="600"
-    >
-      <param name="movie" value="2DOF-Forced-Vib.swf" />
-    </object>
+    <div class="container">
+      <div class="sidebar">
+        <h3>MDMV - Flash - Experiments</h3>
+        <input type="text" placeholder="Search..." class="search" />
+        <ul class="expt-list"></ul>
+      </div>
+      <div class="simulator">
+        <h1 class="title">2DOF Forced Vibration Simulation</h1>
+        <object
+          data="2DOF-Forced-Vib.swf"
+          type="application/x-shockwave-flash"
+          width="800"
+          height="600"
+          id="swfPlayer"
+        >
+          <param name="movie" id="movieParam" value="2DOF-Forced-Vib.swf" />
+        </object>
+      </div>
+    </div>
   </body>
 </html>
